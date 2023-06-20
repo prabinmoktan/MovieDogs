@@ -17,7 +17,8 @@ function MovieCard({movie}) {
       <Card.Img
         variant="top"
         src={'https://image.tmdb.org/t/p/original'+ movie.poster_path}
-        style={{height:"15rem"}}
+        // style={{height:"16rem"}}
+        // className="border"
       />
       <Card.Body >
         <h5 >{movie.title}</h5>
