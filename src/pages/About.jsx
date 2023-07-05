@@ -17,7 +17,7 @@ const About = () => {
     <Row className='mt-5'>
       <p>This moviedogs project was solely developed for self-learning. API was taken from the THEMOVIEDB.org. </p>
       <p>Thanks to VRIT TECHNOLOGY  for providing us the platform to learn.</p>
-      <p>Special thanks to Teacher NIRANJAN KUNWOR for teaching  and leading me to the journey as FRONT END DEVELOPER.  </p>
+      <p>Special thanks to Teacher NIRANJAN KUNWOR for the support and encouragement.  </p>
     </Row>
     </Col>
     <Col className='col-6'>

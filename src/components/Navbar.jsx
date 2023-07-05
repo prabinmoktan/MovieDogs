@@ -29,9 +29,9 @@ const Navbar = ({search,searchMovies}) => {
   return (
     <>
       <nav >
-        <div className="d-flex justify-content-between position-absolute p-1 container-fluid bg-opacity-50 bg-black">
-          <div className="d-flex ms-4">
-            <Link className="d-flex " to='/' >
+        <div className="d-flex justify-content-between position-absolute p-1 container-fluid bg-opacity-50 bg-black col-12-sm">
+          <div className="d-flex ms-4 col-sm-4 ">
+            <Link className="d-flex text-white" to='/' >
               <h2 className="mt-2">
                 <BsFilm />
               </h2>
@@ -39,7 +39,7 @@ const Navbar = ({search,searchMovies}) => {
                 <FaDog />
               </h1>
 
-              <h1 className="nav-item">MovieDogs</h1>
+              <h1 className="nav-item col-sm-3">MovieDogs</h1>
             </Link>
           </div>
           <form

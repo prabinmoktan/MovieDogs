@@ -1,9 +1,13 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { getTrendingMoviesData } from "../services/axios.service";
 import { AiFillFire } from "react-icons/ai";
-// import CarouselMovie from "./CarouselMovie";
+ 
+ 
+
 import MovieCard from './MovieCard'
 const MoviesPage = ({movies}) => {
+
+
   
 
   return (
