@@ -8,7 +8,7 @@ function MovieCard({movie}) {
 
     const ViewDetailHandler = (id) => {
         event.preventDefault();
-        console.log(id)
+        // console.log(id)
          navigate(`/movies/${id}`);
     }
 

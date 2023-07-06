@@ -12,7 +12,7 @@ const MovieDetailPage = () => {
 
   const getSingleMovie = async (id) => {
     const response = await getMovieById(id);
-    console.log(response);
+    // console.log(response);
     setMovie(response);
   };
   useEffect(() => {

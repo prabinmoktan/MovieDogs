@@ -5,7 +5,7 @@ function CarousalData({movies}) {
   return (
     <Carousel className=' position_absolute index '>
       {movies.map((movie)=>{
-        return <Carousel.Item>
+        return <Carousel.Item key={movie.id}>
         <img
           className="d-block w-100 carou-box "
           src={'https://image.tmdb.org/t/p/original'+ movie.backdrop_path}
